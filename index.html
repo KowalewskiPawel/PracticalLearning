@@ -25,29 +25,16 @@ body.tr :lang(en) {
   display: none;
 }
 /* Create a Parallax Effect */
-.bgimg-1, .bgimg-2, .bgimg-3 {
+.bgimg-1 {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-/* First image (Logo. Full height) */
 .bgimg-1 {
   background-image: url('images/logo.png');
   min-height: 100%;
-}
-
-/* Second image (Portfolio) */
-.bgimg-2 {
-  background-image: url("images/logo.jpg");
-  min-height: 400px;
-}
-
-/* Third image (Contact) */
-.bgimg-3 {
-  background-image: url("/w3images/parallax3.jpg");
-  min-height: 400px;
 }
 
 .w3-wide {letter-spacing: 10px;}
@@ -55,7 +42,7 @@ body.tr :lang(en) {
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1600px) {
-  .bgimg-1, .bgimg-2, .bgimg-3 {
+  .bgimg-1 {
     background-attachment: scroll;
     min-height: 400px;
   }
@@ -108,9 +95,9 @@ body.tr :lang(en) {
     BENİM HAKKIMDA</h3>
   <p class="w3-center" lang="en"><em>My motto is if you want to learn something, firstly take some actions, reflect on them, correct your mistakes, don't give up, and persist on learning.</em></p>
   <p class="w3-center" lang="tr"><em>Sloganım, 
-    eğer bir şey öğrenmek istersen, önce harekete geç , üzerine düşün, hataların düzelt, pes etme ve öğrenmeye devam et.</em></p>
+    eğer bir şey öğrenmek istersen, önce harekete geç , üzerinde düşün, hatalarını düzelt, pes etme ve öğrenmeye devam et.</em></p>
   <p lang="en">I can't define myself with one particular area or profession, we live in such interesting times of constant changes and possibilities, that it would be a pity, not to discover other things as well. However, If I had to pick one thing, definitely I would say that my passion is learning. One of the most satisfying part of our lives is acquiring a new skill and using it in practice, what leads to change, creating new tools, acquiring new knowledge, and getting new possibilities around us. By learning new skills we can also contribute to other people's lives, that is why it is so crucial.</p>
-  <p lang="tr">Kendimi belirli bir alan veya meslekle tanımlayamıyorum, sürekli değişimler ve olasılıklar gibi ilginç zamanlarda yaşıyoruz, başka şeyleri de keşfetmemek üzücü olurdu. Ancak, bir şey seçmek zorunda kalsaydım, kesinlikle tutkumun öğrenmek söyleyebilirim. Hayatımızın en tatmin edici kısımlarından biri, yeni bir beceri edinmek ve bunu pratikte kullanmak, değişime yol açan, yeni araçlar yaratmak, yeni bilgi edinmek ve çevremizde yeni olasılıklar elde etmek. Yeni beceriler öğrenerek diğer insanların yaşamlarına da katkıda bulunabiliriz ve bu yüzden 
+  <p lang="tr">Kendimi belirli bir alan veya meslekle tanımlayamıyorum, sürekli değişimlerin ve olasılıkların olduğu ilginç zamanlarda yaşıyoruz, başka şeyleri de keşfetmemek üzücü olurdu. Ancak, bir şey seçmek zorunda kalsaydım, kesinlikle tutkumun öğrenmek olduğunu söyleyebilirim. Hayatımızın en tatmin edici kısımlarından biri, yeni bir beceri edinmek ve bunu pratikte kullanmak, değişime yol açan, yeni araçlar yaratmak, yeni bilgi edinmek ve çevremizde yeni olasılıklar elde etmek. Yeni beceriler öğrenerek, diğer insanların yaşamlarına da katkıda bulunabiliriz ve bu yüzden 
     öğrenmek çok önemlidir.</p>
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
@@ -124,7 +111,9 @@ body.tr :lang(en) {
 
         Teaching and learning new things is my passion, and I don't limit myself just to one particular field. I am interested in learning and teaching foreign languages such as English, Turkish, Spanish and Polish. Information technology and programming is another field that I am into - currently learning Web programming, Java, Python, and Arduino microcontrollers. In my free time, I play the guitar, harmonica, and run my own YouTube channel as a hobby.</p>
         <p lang="tr">
-          İngiliz Dili ve Edebiyatı bölümünden lisans derecesi ve TESOL sertifikası alan kendimi, çeşitli eğitim ortamlarında 5 yılı aşkın öğretmenlik tecrübesi ile son derece kararlı bir İngilizce eğitmeni olarak görüyorum. Yeni şeyler öğretmek ve öğrenmek benim tutkum ve kendimi sadece belirli bir alanla sınırlamıyorum. İngilizce, Türkçe, İspanyolca ve Lehçe gibi yabancı dilleri öğrenmek ve öğretmekle ilgileniyorum. Bilgi teknolojisi ve programlama, şu anda Web programlama, Java, Python ve Arduino mikrodenetleyicilerini öğrenmeye başladığım bir başka alan. Boş zamanlarımda gitar, mızıka çalıyorum ve kendi YouTube kanalımı hobi olarak yönetiyorum.</p>
+          İngiliz Dili ve Edebiyatı bölümü mezunuyum ve TESOL sertifikası sahibiyim. Çeşitli eğitim ortamlarında, 5 yılı aşkın öğretmenlik tecrübesi ile kendimi son derece kararlı bir İngilizce eğitmeni olarak görüyorum.
+          Yeni şeyler öğretmek ve öğrenmek benim tutkum ve kendimi sadece belirli bir alanla sınırlamıyorum. İngilizce, Türkçe, İspanyolca ve Lehçe gibi yabancı dilleri öğrenmek ve öğretmekle ilgileniyorum. 
+          Şu anda bilgi teknolojisi ve programlama,  Web programlama, Java, Python ve Arduino öğrenıyorum. Boş zamanlarımda gitar, mızıka çalıyorum ve kendi YouTube kanalımı hobi olarak yönetiyorum.</p>
   
       </div>
   
@@ -197,7 +186,7 @@ body.tr :lang(en) {
 <div class="w3-content w3-container w3-padding-64"><div class="w3-center">
 <p lang='en'>My main field is English teaching, but I can also teach you other languages and following skills:</p>
 <p lang='tr'>
-  Ana alanım İngilizce öğretmenlik, ancak size diğer dilleri ve aşağıdaki becerileri de öğretebilirim:</p><br>
+  Ana alanım İngilizce öğretmenliği, ancak size diğer dilleri ve aşağıdaki becerileri de öğretebilirim:</p><br>
     <ul class="w3-ul w3-hoverable">
         <li>English</li>
         <li>Polish</li>
